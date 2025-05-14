@@ -8,6 +8,7 @@ var adminRouter = require('./routes/admin');
 var hbs = require('express-handlebars')
 var fileUpload = require ('express-fileupload')
 var db=require('./config/connection')
+// var productHelpers = require('./helpers/product-helpers')
 
 var app = express();
 
